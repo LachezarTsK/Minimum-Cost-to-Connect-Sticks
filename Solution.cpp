@@ -22,7 +22,7 @@ public:
     }
 
 private:
-    int removeAndReturnTop(priority_queue<int, vector<int>, greater<>>&minHeap) {
+    int removeAndReturnTop(priority_queue<int, vector<int>, greater<>>& minHeap) {
         int top = minHeap.top();
         minHeap.pop();
         return top;
